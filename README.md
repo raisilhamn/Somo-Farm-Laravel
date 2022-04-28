@@ -1,4 +1,4 @@
-# uts-laravel
+# Project Laravel (SIS205) 
 Tema Project : Online Shop
 Kelompok 2 Kelas I1
 
