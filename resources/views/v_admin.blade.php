@@ -3,7 +3,7 @@
     <div class="col-lg-5">
         <h3>Form untuk menambahkan voucher baru</h3>
 
-        <form method="POST" action="/super-admin/posts">
+        <form method="POST" action="">
             @csrf
             <div class="mb-3">
                 <label for="Nama voucher" class="form-label">Judul Voucher</label>

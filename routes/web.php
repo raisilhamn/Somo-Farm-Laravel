@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProdukControler;
+use App\Http\Controllers\VoucherController;
 use Illuminate\Support\Facades\Route;
 use app\Models\Produk;
 
@@ -40,6 +41,9 @@ Route::get('/home-dashboard', function () {
     ]);
 });
 
+Route::get('/voucher/data', [VoucherController::class, 'index'])->name('data-voucher');
+Route::get('/voucher/create', [VoucherController::class, 'create'])->name('create-voucher');
+Route::post('/voucher/simpan', [VoucherController::class, 'store'])->name('simpan');
 // route::view('/super-admin','v_superadmin');
 // route::view('/admin','v_admin');
 // route::view('/home-dashboard','v_home');
