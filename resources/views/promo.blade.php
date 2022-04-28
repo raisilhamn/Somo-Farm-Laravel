@@ -4,7 +4,7 @@
 @endsection
 
 @section('container')
-    <div class="about-section">
+    <div class="about-section" style="background-color: #468080">
         <h1>Voucher Spesial</h1>
     </div>
 
@@ -15,7 +15,7 @@
             <p class="title">{{ $post['author'] }}</h5>
             <p><?= $post['body'] ?></p>
             <a href="/pakai-promo/{{ $post['slug'] }}" class="btn btn-success" role="button"
-                style="background-color: #868d6f">Pakai Voucher</a>
+                style="background-color: #468080">Pakai Voucher</a>
         </div>
     @endforeach
 @endsection

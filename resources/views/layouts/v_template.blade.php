@@ -96,7 +96,7 @@
                         <img src="{{ asset('image/domba1.jpg') }}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Syaiful Khisnu</a>
+                        <a href="#" class="d-block">Syaiful (admin)</a>
                     </div>
                 </div>
 

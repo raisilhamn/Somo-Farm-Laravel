@@ -6,12 +6,12 @@
         <form method="POST" action="/super-admin/posts">
             @csrf
             <div class="mb-3">
-                <label for="Nama voucher" class="form-label">Judul Produk</label>
+                <label for="Nama voucher" class="form-label">Judul Voucher</label>
                 <input type="text" class="form-control" id="judul-produk" name="judul">
             </div>
-            <label for="Tanggal lahir" class="form-label">Tanggal lahir</label>
+            <label for="Tanggal lahir" class="form-label">Tanggal Expired</label>
             <div class="input-group date mb-3" id="datepicker">
-                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
                 <span class="input-group-append">
                     <span class="input-group-text bg-light d-block">
                         <i class="fa fa-calendar"></i>

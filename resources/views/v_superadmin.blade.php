@@ -13,7 +13,7 @@
             
             <label for="Tanggal lahir" class="form-label">Tanggal lahir</label>
             <div class="input-group date mb-3" id="datepicker">
-                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
                 <span class="input-group-append">
                     <span class="input-group-text bg-light d-block">
                         <i class="fa fa-calendar"></i>

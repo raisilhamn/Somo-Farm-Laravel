@@ -4,7 +4,7 @@
 @endsection
 
 @section('container')
-    <div class="about-section">
+    <div class="about-section" style="background-color: #468080">
         <h1>About Us Page</h1>
         <p>Let us introduce ourself</p>
 
@@ -19,7 +19,7 @@
                     <h2>{{ $namaCEO }}</h2>
                     <p class="title">{{ $KeteranganCEO }}</p>
                     <p>Ayahanda Syaiful</p>
-                    <p><button class="button" style="background-color: #69724a">{{ $Kontak }}</button></p>
+                    <p><button class="button" style="background-color: #468080">{{ $Kontak }}</button></p>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                     <h2>{{ $namaCTO }}</h2>
                     <p class="title">{{ $KeteranganCTO }}</p>
                     <p>Anak dari Bapak Somo</p>
-                    <p><button class="button" style="background-color: #69724a">{{ $Kontak }}</button></p>
+                    <p><button class="button" style="background-color: #468080">{{ $Kontak }}</button></p>
                 </div>
             </div>
         </div>
